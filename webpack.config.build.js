@@ -28,6 +28,7 @@ module.exports = merge(common, {
     '@material-ui/core',
     /@material-ui\/core\/*./,
     'clsx',
+    'mui-rff',
   ],
   plugins: [
     new webpack.DefinePlugin({

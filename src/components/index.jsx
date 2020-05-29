@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import TextField from '@material-ui/core/TextField';
+import { TextField } from 'mui-rff';
 import InputAdornment from '@material-ui/core/InputAdornment';
 import Button from '@material-ui/core/Button';
 import Menu from '@material-ui/core/Menu';
@@ -43,7 +43,7 @@ const styles = () => ({
   positionStart: {
     position: 'relative',
   },
-  ...flagStyles(flagSprite)
+  ...flagStyles(flagSprite),
 });
 
 class MaterialUiPhoneNumber extends React.Component {

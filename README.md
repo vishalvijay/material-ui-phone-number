@@ -1,16 +1,16 @@
-# material-ui-phone-number
+# material-ui-phone-number-for-mui-rff
 Highly customizable phone input component with auto formatting. Based on the wonderful [react-phone-input-2](https://github.com/bl00mber/react-phone-input-2) package.
 
 It looks like this, but in Material Design:
 
 ![alt tag](https://media.giphy.com/media/l378A8qFNzgiuPUre/giphy.gif)
 
-Uses @material-ui/core/TextField for rendering the phone input
+Uses mui-rff/TextField for rendering the phone input
 
 ## Installation
 
 ```shell-script
-npm install material-ui-phone-number --save
+npm install material-ui-phone-number-for-mui-rff --save
 ```
 
 ## Usage
