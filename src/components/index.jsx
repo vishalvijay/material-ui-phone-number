@@ -720,7 +720,7 @@ class MaterialUiPhoneNumber extends React.Component {
       isModernBrowser, classes, keys, localization, placeholder, regions, onChange,
       value,
       // end placeholder props
-      inputClass, error, InputProps,
+      inputClass, error, InputProps, name,
       ...restProps
     } = this.props;
 
@@ -728,6 +728,7 @@ class MaterialUiPhoneNumber extends React.Component {
 
     return (
       <TextField
+        name={name}
         placeholder={statePlaceholder}
         value={formattedNumber}
         className={inputClass}
@@ -757,6 +758,7 @@ MaterialUiPhoneNumber.propTypes = {
   preferredCountries: PropTypes.arrayOf(PropTypes.string),
   defaultCountry: PropTypes.string,
 
+  name: PropTypes.string,
   value: PropTypes.string,
   placeholder: PropTypes.string,
   disabled: PropTypes.bool,
